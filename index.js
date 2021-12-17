@@ -7,7 +7,7 @@ const { response } = require('express')
 
 const app = express()
 
-const newspappers = [{
+const newspapers = [{
         name: 'TimesofIndia',
         address: 'https://timesofindia.indiatimes.com/',
         base: '',
@@ -124,8 +124,8 @@ const newspappers = [{
 
 const articles = []
 
-newspappers.forEach(newspapper => {
-    axios.get(newspapper.address)
+newspapers.forEach(newspaper => {
+    axios.get(newspaper.address)
         .then(response => {
             const html = response.data
             const $ = cheerio.load(html)
@@ -136,8 +136,8 @@ newspappers.forEach(newspapper => {
 
                 articles.push({
                     title,
-                    url: newspapper.base + url,
-                    source: newspapper.name
+                    url: newspaper.base + url,
+                    source: newspaper.name
                 })
             })
 
