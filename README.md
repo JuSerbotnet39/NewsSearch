@@ -2,7 +2,7 @@
 
 1) On Terminal
 
-    $>npm run start
+        $>npm run start
 
 2) on Web Browser
 
@@ -22,7 +22,7 @@
 
         http://localhost:8000/news/"nmae_of_the_site_included_in_js"
 
-        ex:http://localhost:8000/news/Gaurdian
+        ex:     http://localhost:8000/news/Gaurdian
 
 
 
@@ -30,5 +30,5 @@
 
     line 134 and line 167 in 
 
-    $('a:contains("Put-your-keyword-here")', html)
+        $('a:contains("Put-your-keyword-here")', html)
 
