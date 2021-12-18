@@ -32,8 +32,8 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
 
        http://localhost:8000/news/"name_of_the_site_included_in_js"
       ex:
-                    
-       http://localhost:8000/news/Gaurdian
+                                                                                                        
+                                                                                                        http://localhost:8000/news/Gaurdian
        
        
 
