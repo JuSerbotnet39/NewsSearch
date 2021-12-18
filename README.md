@@ -20,10 +20,10 @@
 
 
 
-3) For a specific site just write:
+    2c) For a specific site just write:
 
        http://localhost:8000/news/"name_of_the_site_included_in_js"
-     ex:
+      ex:
 
        http://localhost:8000/news/Gaurdian
 
