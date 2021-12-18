@@ -5,7 +5,7 @@ This is my first ever attemt at making an API, this specific API scans the a hre
 To view it nicely, Download the Json viewer extension in your browser, <a href= "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related">JSON viewer</a>.
 <hr><br>
 <br>
-<h2>Foe Starting the Project</h2>
+<h2>For Starting the Project</h2>
 1) On Terminal
 
        $> npm run start
