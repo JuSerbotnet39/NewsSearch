@@ -3,8 +3,8 @@
 This is my first ever attemt at making an API, this specific API scans the a href tags in diffrent sites and searches for a specific keyword in those tags and gives back its title and url of articles with that keywork in JSON. 
 
 To view it nicely, Download the Json viewer extension in your browser, <a href= "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related">JSON viewer</a>.
-
-<br><hr>
+<hr><br>
+<br>
 
 1) On Terminal
 
