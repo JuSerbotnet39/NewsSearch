@@ -11,7 +11,7 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
        $> npm run start
        
        
-      <br>
+ <br>
        
 
 2) On Web Browser
@@ -42,7 +42,7 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
 
 
 
-3) For changing the keyword for search in line 134 and line 167(For now it is about searching about Omicron in every headline)
+3) For changing the keyword for search in line 134 and line 167(For now by default it is about searching about Omicron in every headline)
 
        $('a:contains("Put-your-keyword-here")', html)
 
