@@ -5,6 +5,10 @@
     $>                                                                                                                                                      
     
        npm run start
+       
+       
+       
+       
 
 2) on Web Browser
 
@@ -26,10 +30,12 @@
       ex:
                     
        http://localhost:8000/news/Gaurdian
+       
+       
 
 
 
-5) For changing the keyword for search in line 134 and line 167
+3) For changing the keyword for search in line 134 and line 167
 
        $('a:contains("Put-your-keyword-here")', html)
 
