@@ -2,9 +2,7 @@
 
 1) On Terminal
 
-    $>                                                                                                                                                      
-    
-       npm run start
+       >npm run start
        
        
        
