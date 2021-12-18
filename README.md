@@ -14,7 +14,7 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
        
        
 
-2) on Web Browser
+2) On Web Browser
 
     2a) For Main Page
 
