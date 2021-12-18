@@ -4,6 +4,7 @@ const axioss = require('axios')
 const cheerio = require('cheerio')
 const { default: axios } = require('axios')
 const { response } = require('express')
+const { html } = require('cheerio/lib/static')
 
 const app = express()
 
@@ -152,6 +153,31 @@ app.get('/news', (req, res) => {
     res.json(articles)
 })
 
+app.get('/news/:newspaperId', async(req, res) => {
+    const newspaperId = req.params.newspaperId
+    const newspaperAddress = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].address
+    const newspaperBase = newspapers.filter(newspaper => newspaper.name == newspaperId)[0].base
 
+    axios.get(newspaperAddress)
+        .then(response => {
+            const html = response.data
+            const $ = cheerio.load(html)
+            const specificArticle = []
+
+            $('a:contains("Omicron")', html).each(function() {
+                const title = $(this).text()
+                const url = $(this).attr('href')
+
+                specificArticle.push({
+                    title,
+                    url: newspaperBase + url,
+                    source: newspaperId
+                })
+
+            })
+            res.json(specificArticle)
+        }).catch(err => console.log(err))
+
+})
 
 app.listen(PORT, () => console.log(`SERVER RUNNING ON PORT ${PORT}`))
