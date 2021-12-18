@@ -2,7 +2,7 @@
 
 This is my first ever attemt at making an API, this apecific API scans the a href tags in diffrent sites and searches for a specific keyword in the title and gives back the title and the url of articles with that keywork in Json. 
 
-To view it nicely, Download the Json viewer extension in your browser, <a href= "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related">JSON viewer</a>
+To view it nicely, Download the Json viewer extension in your browser, <a href= "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related">JSON viewer</a>.
 
 
 
