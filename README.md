@@ -1,7 +1,7 @@
 # NewsSearch
 
-This is my first ever attemt at making an API, this specific API scans the a href tags in diffrent sites and searches for a specific keyword in those tags and gives back its title and url of articles with that keywork in JSON. 
-
+This is my first ever attemt at making an API, this specific API scans the a href tags in diffrent sites and searches for a specific keyword in those tags and gives back its title and url of articles with that keywork in JSON. I Learnt this from and got inspired by <a href="https://github.com/kubowania/climate-change-live-api">Ania Kubow</a> from this <a herf="https://www.youtube.com/watch?v=GK4Pl-GmPHk">Video</a>
+<br>
 To view it nicely, Download the Json viewer extension in your browser, <a href= "https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh/related">JSON viewer</a>.
 <hr><br>
 <br>
