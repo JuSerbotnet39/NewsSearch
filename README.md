@@ -29,9 +29,7 @@
 
 
 
-5) For changing the keyword for search in 
-
-    line 134 and line 167 in 
+5) For changing the keyword for search in line 134 and line 167
 
        $('a:contains("Put-your-keyword-here")', html)
 
