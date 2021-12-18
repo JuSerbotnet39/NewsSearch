@@ -1,8 +1,9 @@
 # NewsSearch
 
 1) On Terminal
-
-        $>npm run start
+$>
+                                
+        npm run start
 
 2) on Web Browser
 
@@ -21,8 +22,9 @@
 3) For a specific site just write:
 
         http://localhost:8000/news/"nmae_of_the_site_included_in_js"
+     ex:
 
-        ex:     http://localhost:8000/news/Gaurdian
+        http://localhost:8000/news/Gaurdian
 
 
 
