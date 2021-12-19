@@ -45,7 +45,7 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
 
 <h3>3) For changing the keyword for search in line 134 and line 167</h3><i>(For now by default it is about searching about Omicron in every headline)</i>
 
-<br><br>
+<br>
 
        $('a:contains("Put-your-keyword-here")', html)
 
