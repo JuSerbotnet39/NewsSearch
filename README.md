@@ -37,7 +37,9 @@ To view it nicely, Download the Json viewer extension in your browser, <a href= 
    ex:
                                                                                                         
        http://localhost:8000/news/Gaurdian
-     <br>
+   
+
+  <br>
        
        
 
